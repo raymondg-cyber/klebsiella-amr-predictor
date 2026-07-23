@@ -1,0 +1,17 @@
+# Ignore the entire raw data directory (prevents genomic files leaking)
+data/raw_genomes/
+
+# Ignore Python virtual environments and hidden system settings
+.venv/
+venv/
+ENV/
+.DS_Store
+
+# Ignore messy Python background cache compilation files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local system environment variables (protects your Gemini API Key)
+.env
