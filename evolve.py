@@ -1,11 +1,11 @@
 from google import genai
 
-def engineer_counter_peptide(mutation_profile, targeted_antibiotic):
+def engineer_counter_peptide(mutation_profile, targeted_antibiotic, diagnostic_metrics=None ):
     try:
         client = genai.Client()
         prompt = f"Design an AMP sequence to break through {mutation_profile} resistance to {targeted_antibiotic}."
         response = client.models.generate_content(
-            model='gemini-3.5-flash', # Using free gemini-3.5-flashtier for debugging
+            model='gemini-3.5-flash', # Using free gemini-3.5-flash tier for debugging
             contents=prompt,
         )
         return response.text
