@@ -47,6 +47,6 @@ To overcome multi-species outer membrane barriers, the system synthesized a high
 
 To test the pipeline big-data capacity during a large-scale outbreak simulation, the core was updated to process an intense 100-strain cohort layout.
 
-- RAM Footprint Protection: Implemented Memory-Mapped Arrays (np.memmap) to stream data vectors straight from the storage drive, maintaining flat system stability on consumer hardware.
-- Big-Data Candidate Layout: Generated KP-AMP-24 (NH2-KKWRKFLKKFKKFLKKLF-NH2), an 18-amino-acid sequence carrying a +10 net charge designed to maintain membrane-thinning stability across highly saturated mutational data grids.
+The pipeline protected the system memory footprint by implementing memory-mapped arrays to stream data vectors straight from the solid-state drive, maintaining flat system stability on consumer hardware. 
 
+The big-data candidate calculation generated the peptide molecule KP-AMP-24 which utilizes an 18-amino-acid sequence carrying a plus 10 net charge designed to maintain membrane-thinning stability across highly saturated mutational data grids.
