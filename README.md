@@ -41,7 +41,7 @@ To overcome multi-species outer membrane barriers, the system synthesized a high
 *   **Clinical Synergy Blueprint:** Induces intense membrane thinning and porin bypass channels. This allows standard **Meropenem** to influx into the periplasmic space at hyper-velocities, kinetically saturating localized beta-lactamase arrays across all three species to restore full clinical antibiotic vulnerability.
 
 
----
+
 
 ## High-Scale Memory Mapping Stress-Test
 
