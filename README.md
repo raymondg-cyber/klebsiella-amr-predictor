@@ -43,9 +43,10 @@ To overcome multi-species outer membrane barriers, the system synthesized a high
 
 ---
 
-## 🚀 High-Scale Memory Mapping Stress-Test
+## High-Scale Memory Mapping Stress-Test
 
-To test the pipeline's big-data capacity during a large-scale outbreak simulation, the core was updated to process an intense 100-strain cohort layout:
+To test the pipeline big-data capacity during a large-scale outbreak simulation, the core was updated to process an intense 100-strain cohort layout.
 
-*   **RAM Footprint Protection:** Implemented **Memory-Mapped Arrays (`np.memmap`)** to stream data vectors straight from the storage drive, maintaining flat system stability on consumer hardware [1.3].
-*   **Big-Data Candidate Layout:** Generated **KP-AMP-24** (`NH2-KKWRKFLKKFKKFLKKLF-NH2`), an 18-amino-acid sequence carrying a **+10 net charge** designed to maintain membrane-thinning stability across highly saturated mutational data grids.
+- RAM Footprint Protection: Implemented Memory-Mapped Arrays (np.memmap) to stream data vectors straight from the storage drive, maintaining flat system stability on consumer hardware.
+- Big-Data Candidate Layout: Generated KP-AMP-24 (NH2-KKWRKFLKKFKKFLKKLF-NH2), an 18-amino-acid sequence carrying a +10 net charge designed to maintain membrane-thinning stability across highly saturated mutational data grids.
+
